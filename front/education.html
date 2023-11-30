@@ -39,6 +39,7 @@
     </symbol>
   </svg>
 
+  <!--burger navbar-->
   <header class="navbar sticky-top bg-dark flex-md-nowrap p-0 shadow" data-bs-theme="dark">
     <img src="./assets/logo-color.png" alt="LOGO IJN" width="100px" class="p-2 m-2">
     <ul class="navbar-nav flex-row d-md-none">
@@ -65,6 +66,7 @@
     </div>
   </header>
 
+  <!--Sidebar menu-->
   <div class="container-fluid" data-bs-theme="dark">
     <div class="row">
       <div class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
@@ -163,7 +165,7 @@
             <hr class="my-3">
             <ul class="nav flex-column mb-auto">
               <li class="nav-item">
-                <a class="nav-link d-flex align-items-center gap-2" href="#">
+                <a class="nav-link d-flex align-items-center gap-2" href="./contact.html">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-person-lines-fill" viewBox="0 0 16 16">
                     <path
@@ -190,35 +192,40 @@
         <br>
       </div>
 
+      <!--content container-->
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
         <div
           class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="h2">Portfolio</h1>
+          <h1 class="h2">Education</h1>
         </div>
 
-
-        <div class="container marketing mt-4">
-          <br>
-          <div class="row text-center">
-            <div class="col-lg-4">
-              <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="">
-              <h2 class="fw-normal">Certification 1</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, beatae sequi? Aperiam, nesciunt! Aut doloribus cupiditate fugit similique sunt, laudantium neque ad earum dolorum id deleniti illum obcaecati doloremque! Aliquid.</p>
-              <p><a class="btn btn-dark" href="">See more</a></p>
+        <!--certification carousel-->
+        <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-8">
+        <div id="carouselExample" class="carousel slide" data-bs-theme="dark">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/ISPC_Programador.png" class="d-block w-100 border-frame" alt="ISPC_Programador">
             </div>
-            <div class="col-lg-4">
-              <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="">
-              <h2 class="fw-normal">Certification 2</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, beatae sequi? Aperiam, nesciunt! Aut doloribus cupiditate fugit similique sunt, laudantium neque ad earum dolorum id deleniti illum obcaecati doloremque! Aliquid.</p>
-              <p><a class="btn btn-dark" href="">See more</a></p>
+            <div class="carousel-item">
+              <img src="./assets/FullStack_AP.png" class="d-block w-100 border-frame" alt="FullStack_AP">
             </div>
-            <div class="col-lg-4">
-              <img class="bd-placeholder-img rounded-circle" width="200" height="200" src="">
-              <h2 class="fw-normal">Certification 3</h2>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, beatae sequi? Aperiam, nesciunt! Aut doloribus cupiditate fugit similique sunt, laudantium neque ad earum dolorum id deleniti illum obcaecati doloremque! Aliquid.</p>
-              <p><a class="btn btn-dark" href="">See more</a></p>
+            <div class="carousel-item">
+              <img src="./assets/EF_SET_Certificate.png" class="d-block w-100 border-frame" alt="EF_SET_Certificate">
             </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        </div>
+        </div>
         </div>
 
       </main>
